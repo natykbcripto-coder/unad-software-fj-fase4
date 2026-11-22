@@ -1,0 +1,30 @@
+2026-11-22 19:27:56,646 | INFO | ===== Inicio de la simulación =====
+2026-11-22 19:27:56,647 | INFO | Cliente creado: Ana Pérez (id=1)
+2026-11-22 19:27:56,647 | INFO | Operación 1 OK: Cliente válido
+2026-11-22 19:27:56,647 | ERROR | Operación 2 falló: Cliente con correo inválido -> Correo inválido: 'luis#mail'
+2026-11-22 19:27:56,647 | ERROR | Operación 3 falló: Cliente con teléfono inválido -> Teléfono inválido (deben ser 10 dígitos): '123'
+2026-11-22 19:27:56,647 | INFO | Cliente creado: Carlos Ruiz (id=4)
+2026-11-22 19:27:56,648 | INFO | Operación 4 OK: Cliente válido
+2026-11-22 19:27:56,648 | INFO | Operación 5 OK: Sala válida
+2026-11-22 19:27:56,648 | INFO | Operación 6 OK: Equipo válido
+2026-11-22 19:27:56,648 | ERROR | Operación 7 falló: Asesoría con nivel inválido -> Nivel de asesor inválido: 'maestro'
+2026-11-22 19:27:56,648 | INFO | Operación 8 OK: Asesoría válida
+2026-11-22 19:27:56,648 | INFO | Reserva #1 creada (pendiente) para Ana Pérez
+2026-11-22 19:27:56,648 | INFO | Reserva #1 confirmada. Costo $214,200.00
+2026-11-22 19:27:56,648 | INFO | Intento de confirmación de reserva #1 finalizado
+2026-11-22 19:27:56,648 | INFO | Operación 9 OK: Reserva exitosa (sala 3h)
+2026-11-22 19:27:56,648 | ERROR | Operación 10 falló: Reserva fallida (sala 20h, excede límite) -> Una sala no se puede reservar más de 12 horas.
+2026-11-22 19:27:56,648 | INFO | Reserva #3 creada (pendiente) para Carlos Ruiz
+2026-11-22 19:27:56,648 | ERROR | Reserva #3: 'Portátil Pro' no está disponible.
+2026-11-22 19:27:56,648 | INFO | Intento de confirmación de reserva #3 finalizado
+2026-11-22 19:27:56,648 | ERROR | procesar() reserva #3: 'Portátil Pro' no está disponible.
+2026-11-22 19:27:56,648 | INFO | Operación 11 OK: Reserva de servicio no disponible
+2026-11-22 19:27:56,648 | INFO | Reserva #4 creada (pendiente) para Ana Pérez
+2026-11-22 19:27:56,648 | INFO | Reserva #4 confirmada. Costo $285,600.00
+2026-11-22 19:27:56,648 | INFO | Intento de confirmación de reserva #4 finalizado
+2026-11-22 19:27:56,648 | ERROR | Reserva #4: No se puede confirmar una reserva confirmada.
+2026-11-22 19:27:56,648 | INFO | Intento de confirmación de reserva #4 finalizado
+2026-11-22 19:27:56,648 | ERROR | Operación 12 falló: Confirmar dos veces la misma reserva -> No se puede confirmar una reserva confirmada.
+2026-11-22 19:27:56,648 | INFO | Operación 13 OK: Costos con variantes (sobrecarga)
+2026-11-22 19:27:56,648 | ERROR | Operación 14 falló: Reserva con cliente inexistente -> La reserva requiere un Cliente y un Servicio válidos.
+2026-11-22 19:27:56,648 | INFO | ===== Fin de la simulación =====
